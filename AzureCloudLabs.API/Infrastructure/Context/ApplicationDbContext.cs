@@ -8,7 +8,6 @@ namespace AzureCloudLabs.API.Infrastructure.Context
     {
         public ApplicationDbContext(DbContextOptions contextOptions):base(contextOptions)
         {
-            
         }
 
         public DbSet<WeatherForecast> WeatherForecasts { get; set; }
